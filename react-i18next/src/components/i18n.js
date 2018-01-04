@@ -6,6 +6,7 @@ import es from "./locale/es.json";
 
 i18n.use(reactI18nextModule).init(
   {
+    ns: "site-package",
     interpolation: {
       escapeValue: false
     },
