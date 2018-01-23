@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import { translate } from "react-i18next";
+import translate from "./translate";
 
 class Footer extends PureComponent {
   render() {
@@ -7,4 +7,4 @@ class Footer extends PureComponent {
   }
 }
 
-export default translate()(Footer);
+export default translate(Footer);

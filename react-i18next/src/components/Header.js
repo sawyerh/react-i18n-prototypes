@@ -1,5 +1,5 @@
+import translate from "./translate";
 import React, { PureComponent } from "react";
-import { translate } from "react-i18next";
 
 class Header extends PureComponent {
   render() {
@@ -7,4 +7,4 @@ class Header extends PureComponent {
   }
 }
 
-export default translate()(Header);
+export default translate(Header);
